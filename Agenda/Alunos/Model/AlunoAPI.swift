@@ -48,4 +48,19 @@ class AlunoAPI: NSObject {
         AF.request(requisicao)
     }
     
+    //MARK: - DELETE
+    
+    func deletaAluno(id: String) {
+        AF.request("http://localhost:8080/api/aluno/\(id)", method: .delete).responseJSON { (response) in
+            switch response.result {
+                
+            case .failure:
+                print(response.error!)
+                break
+                
+            default:
+                break
+            }
+        }
+        }
 }
