@@ -22,6 +22,7 @@
 		72533CC923649F1C00612E77 /* AlunoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72533CC823649F1C00612E77 /* AlunoAPI.swift */; };
 		7264E55723662598005EC2F2 /* LigacaoTelefonica.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7264E55623662598005EC2F2 /* LigacaoTelefonica.swift */; };
 		7264E55923662AA6005EC2F2 /* Safari.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7264E55823662AA6005EC2F2 /* Safari.swift */; };
+		7264E55B23662E63005EC2F2 /* Filtro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7264E55A23662E63005EC2F2 /* Filtro.swift */; };
 		72BAE6CB2364DA47005714EE /* Repositorio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BAE6CA2364DA47005714EE /* Repositorio.swift */; };
 		72BAE6CD2364DB70005714EE /* AlunoDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BAE6CC2364DB70005714EE /* AlunoDAO.swift */; };
 		A281001A1FD5C2F700E1BDF1 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28100191FD5C2F700E1BDF1 /* ImagePicker.swift */; };
@@ -51,6 +52,7 @@
 		72533CC823649F1C00612E77 /* AlunoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlunoAPI.swift; sourceTree = "<group>"; };
 		7264E55623662598005EC2F2 /* LigacaoTelefonica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LigacaoTelefonica.swift; sourceTree = "<group>"; };
 		7264E55823662AA6005EC2F2 /* Safari.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safari.swift; sourceTree = "<group>"; };
+		7264E55A23662E63005EC2F2 /* Filtro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filtro.swift; sourceTree = "<group>"; };
 		72BAE6CA2364DA47005714EE /* Repositorio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repositorio.swift; sourceTree = "<group>"; };
 		72BAE6CC2364DB70005714EE /* AlunoDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlunoDAO.swift; sourceTree = "<group>"; };
 		A28100191FD5C2F700E1BDF1 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
@@ -200,6 +202,7 @@
 				B9D565A61FE14ECA00BDA536 /* Notificacoes.swift */,
 				658B1AA72006456B006D944C /* AutenticacaoLocal.swift */,
 				7264E55823662AA6005EC2F2 /* Safari.swift */,
+				7264E55A23662E63005EC2F2 /* Filtro.swift */,
 			);
 			path = Componentes;
 			sourceTree = "<group>";
@@ -359,6 +362,7 @@
 				03AA176D1FC8515A003CB2B8 /* AlunoViewController.swift in Sources */,
 				72533CC923649F1C00612E77 /* AlunoAPI.swift in Sources */,
 				65F277D92006901C00A8F1BF /* Pino.swift in Sources */,
+				7264E55B23662E63005EC2F2 /* Filtro.swift in Sources */,
 				72BAE6CD2364DB70005714EE /* AlunoDAO.swift in Sources */,
 				03AA17661FC84353003CB2B8 /* HomeTableViewController.swift in Sources */,
 				03AA17561FC84154003CB2B8 /* Agenda.xcdatamodeld in Sources */,
