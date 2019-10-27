@@ -24,7 +24,6 @@ class HomeTableViewController: UITableViewController, UISearchBarDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.configuraSearch()
-        self.tableView.reloadData()
     }
     
     override func viewWillAppear(_ animated: Bool) {
